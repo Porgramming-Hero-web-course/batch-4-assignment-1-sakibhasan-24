@@ -84,4 +84,4 @@ class `Car` with properties make, model, and year. Include a method `getCarAge` 
 
 - Age calculate based on current Year
 - focus only `class`
-- keep all properties `private`
+- keep all properties `public`
