@@ -60,3 +60,14 @@ This function `getProperty` that takes an object and a property name as argument
 - The function returns the type of the specified property.,
 - Uses `Generics` to allow any object type
 - The `constraint K extends keyof T` ensures that only existing property names are accepted.
+
+# Problem - 6
+
+### Description
+
+The `updateProfile` function allows updating specific properties of a `Profile` object. updateProfile that accepts an object of type Profile and an object of type Partial representing the updates. The function return the updated profile.
+
+### Key Points
+
+- The function returns the type is `Profile`.,
+- `Partial<Profile>` is used for `fieldsToUpdate`
