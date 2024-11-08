@@ -24,3 +24,39 @@ let valueOne: number = 12;
 let valueTwo: number | boolean = 12;
 valueTwo = true; // Correct:
 ```
+
+## Intersection Types
+
+### What are Intersection Types?
+
+**Intersection Types** combine multiple types in single type.Ensuring that a variable has must be all proerties
+
+In TypeScript, Intersection types are defined using the `&` (ampersand) symbol.
+
+### Why we use Intersection
+
+    -Combine Different interfaces or types in a Single Type
+    -When we need multiple property from different interface
+
+### Example:
+
+```typescript
+interface Common {
+  name: string;
+  id: string | number;
+  age: number;
+  position: string;
+}
+interface Employee {
+  currentTask: string;
+}
+interface Manager {
+  team: Array<string>;
+}
+type employeeUser = Common & Employee;
+type managerUser = Common & Manager;
+```
+
+### Conclusion
+
+    it enhance flexibility and type safety in TypeScript.It makes our code `DRY`(don't repeat yourcode) procedure.
