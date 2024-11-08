@@ -22,3 +22,17 @@ This function takes an Array and return Unique Array .The function remove `dupli
 - The function `removeDuplicates` take parameter as an array
 - typescript basic type annotation
 - indexOf method
+
+# Problem - 3
+
+### Description
+
+This function `countWordOccurrences` accept a sentence as a string,and accept a word as string and return number of count as number exist in sentence .
+
+### Key Points
+
+- The return type is `Number`,
+- Convert both sentence and word as lowercase
+- split `sentenceLowerCase.split(/[\s,.;!?]+/)` remove common punctuation
+- typescript basic type annotation
+- length method
