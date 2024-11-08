@@ -36,3 +36,15 @@ This function `countWordOccurrences` accept a sentence as a string,and accept a 
 - split `sentenceLowerCase.split(/[\s,.;!?]+/)` remove common punctuation
 - typescript basic type annotation
 - length method
+
+# Problem - 4
+
+### Description
+
+This function `calculateShapeArea` calculates the area of shape based on the onput type shape .it accept an `object` as structure it can be Circle Or Rectangular
+
+### Key Points
+
+- The return type is `Number`,
+- Structure is Union Type
+- use type guard for different calculation
