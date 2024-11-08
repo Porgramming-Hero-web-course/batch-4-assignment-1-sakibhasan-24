@@ -48,3 +48,15 @@ This function `calculateShapeArea` calculates the area of shape based on the onp
 - The return type is `Number`,
 - Structure is Union Type
 - use type guard for different calculation
+
+# Problem - 5
+
+### Description
+
+This function `getProperty` that takes an object and a property name as arguments and returns the property value.Add a constraint to ensure the property name exists on the object.
+
+### Key Points
+
+- The function returns the type of the specified property.,
+- Uses `Generics` to allow any object type
+- The `constraint K extends keyof T` ensures that only existing property names are accepted.
