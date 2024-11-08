@@ -80,8 +80,20 @@ class `Car` with properties make, model, and year. Include a method `getCarAge` 
 
 ### Key Points
 
--Returns the car's age as a `number` type
-
+- Return the car's age as a `number` type
 - Age calculate based on current Year
 - focus only `class`
 - keep all properties `public`
+
+# Problem - 8
+
+### Description
+
+`validateKeys(obj: T, keys: (keyof T)[])` that takes an object obj and an array of keys keys. The function should return true if all of the specified keys exist in the object; otherwise, it should return false.
+
+### Key Points
+
+- Return type is `Boolean`
+- `T` is used for `obj`
+- `keyof T` is used for `keys`
+- manually check is it object or not because in runtime their may be error occurs
