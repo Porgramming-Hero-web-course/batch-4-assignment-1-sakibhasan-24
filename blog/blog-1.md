@@ -59,4 +59,4 @@ type managerUser = Common & Manager;
 
 ### Conclusion
 
-    it enhance flexibility and type safety in TypeScript.It makes our code `DRY`(don't repeat yourcode) procedure.
+it enhance flexibility and type safety in TypeScript.It makes our code `DRY`(don't repeat yourcode) procedure.
