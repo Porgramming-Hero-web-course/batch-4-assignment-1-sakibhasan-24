@@ -71,3 +71,17 @@ The `updateProfile` function allows updating specific properties of a `Profile` 
 
 - The function returns the type is `Profile`.,
 - `Partial<Profile>` is used for `fieldsToUpdate`
+
+# Problem - 7
+
+### Description
+
+class `Car` with properties make, model, and year. Include a method `getCarAge` that returns the car's age based on the current year
+
+### Key Points
+
+-Returns the car's age as a `number` type
+
+- Age calculate based on current Year
+- focus only `class`
+- keep all properties `private`
